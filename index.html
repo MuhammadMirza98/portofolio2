@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equif="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="set.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>Muhammad Mirza</title>
+        <link rel="icon" href="images/logo.png">
+        <type="image/x-icon">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <!--<li><a href="#services">Services</a></li>-->
+                        <li><a href="#portfolio">Portofolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class='bx bx-x' onclick="closemenu()"></i>
+                    </ul>
+                    <i class='bx bx-menu' onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h2>HI, I AM</h2>
+                    <h1><span>Muhammad Mirza</span><span1><br> A WEB DEVELOPER</span1><br>Im from NTT</h1>
+                </div>
+            </div>
+        </div>
+
+        <!--about-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/about.JPG">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>Perkenalkan nama saya Muhammad Mirza biasa di panggil Mirza. Saya berasal dari Kota Ende, NTT. Saya lahir pada tanggal 14 April 2008 dan 
+                        saya bersekolah pada sebuah sekolah kejuruan berbasis madrasah atau biasa disebut madrasah vokasi yaitu MAKN Ende. <br>
+                        sebagai seorang web developer, saya berusaha belajar secara individu yang penuh dedikasi dan kreativitas dalam dunia teknologi. Saya memiliki kemampuan
+                        teknis yang kuat dan pengetahuan mendalam tentang pengembangan web,seperti bahasa pemrograman</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skilss</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Merancang antarmuka Web/Aplikasi</li>
+                                <li><span>Web Development</span><br>Pengembangan aplikasi web</li>
+                                <li><span>App Development</span><br>Bangunan Aplikasi Android/iOS</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2022 - 2025</span><br>MAKN ENDE</li>
+                                <li><span>2015 - 2021</span><br>SDI Nangapanda 3</li>
+                                <li><span>2012 - 2013</span><br>TK Numba Raba</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-------SERVICES--------->
+<!--<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class='bx bx-code-alt'></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                At accusamus maxime esse neque tempore, quia voluptate sint omnis 
+                fugiat ipsam?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class='bx bx-crop' ></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    At accusamus maxime esse neque tempore, quia voluptate sint omnis 
+                    fugiat ipsam?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class='bx bx-aperture'></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    At accusamus maxime esse neque tempore, quia voluptate sint omnis 
+                    fugiat ipsam?</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>-->
+
+
+<!------------------PORTFOLIO------------------>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/23.png">
+                <div class="layer">
+                    <h3>Website Coffee</h3>
+                    <!--<p>Website Coffee</p>-->
+                    <a href="cofee website/index.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/kek.png">
+                <div class="layer">
+                    <h3>Login</h3>
+                    <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Soluta consectetur rerum earum voluptatibus, vitae consequuntur.</p>-->
+                    <a href="login/index.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/sut.png">
+                <div class="layer">
+                    <h3>Natural Tourism</h3>
+                    <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Soluta consectetur rerum earum voluptatibus, vitae consequuntur.</p>-->
+                    <a href="WISATA/inde.html"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!--------------CONTACT--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class='bx bx-send' ></i>rim985514@gmail.com</p>
+                <p><i class='bx bxs-phone'></i>62+ 85333099258</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                    <a href=""><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="https://www.instagram.com/muhmmdmirza__/"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox"><i class='bx bxl-gmail'></i></a>
+                </div>
+                <a href="images/about.JPG" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &#169 2024 MUHAMMAD MIRZA<i class="fas fa-heart"> by Easy Tutorials</i></p>
+    </div>
+</div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--java script file link-->
+<script src="sc.js"></script>
+
+
+    </body>
+    </html>
